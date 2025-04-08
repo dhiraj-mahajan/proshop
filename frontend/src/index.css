@@ -15,3 +15,34 @@ code {
 main {
   min-height: 80vh;
 }
+
+.rating {
+  height: 30px;
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: row; /* Align stars and text in a row */
+  align-items: center; /* Center-align stars and text vertically */
+  gap: 5px; /* Adds a small gap between stars and text */
+  color: #f8e825; /* Yellow color for the stars */
+}
+
+.rating span {
+  display: flex;
+  align-items: center; /* Ensures individual stars are vertically aligned */
+}
+
+.rating-text {
+  margin-left: 5px;
+  font-size: 0.9rem; /* Adjust the text size if needed */
+  color: #333; /* Optional: Set a different color for the text */
+  line-height: 1.2; /* Ensures proper vertical alignment with the stars */
+}
+
+.product-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  height: 1.5em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
